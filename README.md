@@ -32,13 +32,13 @@ Aqui temos as refeições mais vendidas do nosso restaurante, cada refeição es
 
 # Cardápio
 
-/** Cuidado! A chance de você sair com fome depois dessa sessão é enorme! **/
+/** Cuidado! A chance de você sair com fome depois dessa seção é enorme! **/
 
 ![Screenshot_15](https://user-images.githubusercontent.com/85406655/127027628-e40cf7df-59ee-432e-b761-c7299f5e19aa.png)
 
 ![Screenshot_14](https://user-images.githubusercontent.com/85406655/127027658-997ec9a2-2148-4036-8ead-a6dfd2b77390.png)
 
-Assim como no resto do site, esta sessão é feita com flexbox e possui uma animação quando o usuário passa o mouse em cima de algum dos pratos
+Assim como no resto do site, esta seção é feita com flexbox e possui uma animação quando o usuário passa o mouse em cima de algum dos pratos
 
 ![Screenshot_16](https://user-images.githubusercontent.com/85406655/127028004-e7c53cff-723c-4224-9df8-88ba7421d261.png) ![Screenshot_17](https://user-images.githubusercontent.com/85406655/127028020-7790148c-4556-4ae7-82f5-9114d58def97.png)
 
