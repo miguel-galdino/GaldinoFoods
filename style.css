@@ -1,5 +1,5 @@
 
-/*Common Stlyes*/
+/* Estilos padrão */
 
 *{
 	margin: 0;
@@ -11,17 +11,26 @@
 	font-weight: 300;
 }
 
-html /*setting 1rem to be equal to 10px*/{
+html /*setando 1rem para ser igual a 10px*/{
 	font-size: 62.5%;
+}
+
+body{
+	background-color: #333333;
+}
+
+.colored{
+	background-color: #141414;
 }
 
 .section-1-icons, .cards-container, .gallery{
 	margin-bottom: 10rem;
 }
 
-/*End of common stlyes*/
+/* Fim dos estilos padrão */
 
 /*Navbar*/
+
  .navbar{
  	width: 100%;
  	height: 10rem;
@@ -56,6 +65,8 @@ html /*setting 1rem to be equal to 10px*/{
  	opacity: 1;
  }
 
+ /** mudando a opacidade e velocidade e aparição dos icones da navbar **/
+
  .change .navbar-link:nth-child(1){
  	transition: opacity .4s .5s,
  	color .3s;
@@ -77,6 +88,8 @@ html /*setting 1rem to be equal to 10px*/{
  	color .3s;
  }
 
+/** **/
+
   .navbar-link:hover{
  	color: #fff;
  }
@@ -93,6 +106,7 @@ html /*setting 1rem to be equal to 10px*/{
  	margin-top: .5rem;
  }
 
+/** cordinha que puxa a navbar **/
  .menu{
  	width: 3rem;
  	height: 5rem;
@@ -124,7 +138,9 @@ html /*setting 1rem to be equal to 10px*/{
  	box-shadow: .1rem 0 .1rem #000;
  }
 
-/*End of Navbar*/
+ /** **/
+
+/*Fim da Navbar*/
 
 
 /* Section 1 */
@@ -132,7 +148,7 @@ html /*setting 1rem to be equal to 10px*/{
 .section-1{
 	width: 100%;
 	height: 100vh;
-	background: #141414;
+	/*background: #141414;*/
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -152,7 +168,7 @@ html /*setting 1rem to be equal to 10px*/{
 .section-1 i{
 	margin-top: 5rem;
 	font-size: 23rem;
-	color: #a79a2d;
+	color: #99ffbb ;/*color: #a79a2d;*/
 	position: absolute;
 	transform: translate(-50%, -50%) scale(0);
 	text-shadow: .2rem .2rem .2rem #000;
@@ -165,7 +181,7 @@ html /*setting 1rem to be equal to 10px*/{
 }
 
 
-/*End of Section 1 */
+/*Fim da Section 1 */
 
 
 /*Section 2*/
@@ -173,7 +189,7 @@ html /*setting 1rem to be equal to 10px*/{
 .section-2{
 	width: 100%;
 	/*height: 120vh;*/
-	background-color: #333333;
+	/*background-color: #333333;*/
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -187,13 +203,13 @@ html /*setting 1rem to be equal to 10px*/{
 
 .card{
 	width: 28rem;
-	background-color: #a79a2d;
+	background-color: #99ffbb;
 	padding: 4rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	box-shadow: 1rem 1rem 1rem #000;
+	box-shadow: 1rem 1rem 1rem #333333;
 	margin-top: 10rem;
 	position: relative;
 	transform: rotateY(20deg) skewX(-2deg);
@@ -202,14 +218,14 @@ html /*setting 1rem to be equal to 10px*/{
 
 .card:hover{
 	transform: rotateY(20deg) skewX(-2deg) translateY(-3rem);
-	box-shadow: 2rem 2rem 2rem #000;
+	box-shadow: 2rem 2rem 2rem #333333;
 }
 
 .card::before{
 	content: "";
 	height: 100%;
 	width: 1rem;
-	background-color: #817824;
+	background-color: #66ff99;
 	position: absolute;
 	top: 0;
 	left: -1rem;
@@ -222,7 +238,7 @@ html /*setting 1rem to be equal to 10px*/{
 	content: "";
 	height: 1rem;
 	width: 100%;
-	background-color: #8f8317;
+	background-color: #80ffaa;
 	position: absolute;
 	top: -1rem;
 	left: 0;
@@ -260,12 +276,12 @@ html /*setting 1rem to be equal to 10px*/{
 	box-shadow: -.2rem, -.2rem, .2rem #000;
 }
 
-/*End of Section 2*/
+/*Fim da Section 2*/
 
 /*Section 3*/
 
 .section-3{
-   background-color: #141414;
+  /* background-color: #141414;*/
    padding: 5rem 0;
 }
 
@@ -374,13 +390,13 @@ html /*setting 1rem to be equal to 10px*/{
 	transition: opacity 1s 1s;
 }
 
-/*End of Section 3*/
+/*Fim da Section 3*/
 
 /*Section 4*/
  .section-4{
  	width: 100%;
  	height: 30vh;
- 	background-color: #333333;
+ 	background-color: #141414;
  	display: flex;
  	justify-content: space-around;
  	align-items: flex-start;
@@ -395,7 +411,7 @@ html /*setting 1rem to be equal to 10px*/{
  .section-4-heading{
  	font-size: 4rem;
  	font-weight: 800;
- 	color: #a79a2d;
+ 	color: #99ffbb;
  }
 
  .section-4-paragraph{
@@ -412,15 +428,15 @@ html /*setting 1rem to be equal to 10px*/{
  	width: 35rem;
  	height: 5rem;
  	padding: 1rem;
- 	border: .2rem solid #a79a2d;
+ 	border: .2rem solid #66ff99;
  	font-size: 1.4rem;
  	font-weight: 600;
  	letter-spacing: .1rem;
- 	color: #a79a2d;
+ 	color: #99ffbb;
  }
 
  .signup-form-input::placeholder{
- 	color: #a79a2d;
+ 	color: #8c8c8c;
  }
 
  .signup-form-btn{
@@ -429,7 +445,7 @@ html /*setting 1rem to be equal to 10px*/{
  	width: 4rem;
  	height: 4rem;
  	background-color: #333;
- 	color: #a79a2d;
+ 	color: #99ffbb;
  	border: none;
  	font-size: 1.6rem;
  	cursor: pointer;
@@ -437,7 +453,7 @@ html /*setting 1rem to be equal to 10px*/{
 
  .copyright{
  	position: absolute;
- 	bottom: 3rem;
+ 	bottom: 2rem;
  	font-size: 1.3rem;
  	font-weight: 300;
  	color: #eee;
@@ -450,9 +466,14 @@ html /*setting 1rem to be equal to 10px*/{
  	text-align: center;
  }
 
+ .footer-link{
+ 	margin: 2rem .5rem 0.5rem;
+ 	color: #99ffbb;
+ }
+ 
 
 
-/*End of Section 4*/
+/*Fim da Section 4*/
 
 
 /*Responsive*/
@@ -574,4 +595,4 @@ html /*setting 1rem to be equal to 10px*/{
 
 
 }
-/*End of Responsive*/
+/*Fim do Responsive*/
