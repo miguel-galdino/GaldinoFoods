@@ -32,7 +32,7 @@ Aqui temos as refeições mais vendidas do nosso restaurante, cada refeição es
 
 # Cardápio
 
-/** Cuidado! A chance de você sair com fome depois dessa sessão é enomre! **/
+/** Cuidado! A chance de você sair com fome depois dessa sessão é enorme! **/
 
 ![Screenshot_15](https://user-images.githubusercontent.com/85406655/127027628-e40cf7df-59ee-432e-b761-c7299f5e19aa.png)
 
